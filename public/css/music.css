@@ -1,0 +1,168 @@
+body{
+    font-family: "Rajdhani", sans-serif; 
+    margin: 0px auto;
+    padding: 0px auto;  
+}
+
+/*Clases para reutilizar*/
+
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+
+.btn-morado{
+    border: none;
+    background-color: #622bcb;
+    color: white;
+    padding: 0% 7%;
+}
+
+.bg-card1{
+    background-color: #6b4ac7;
+}
+
+.bg-card2{
+    background-color: #6227ca
+}
+
+.h-50{
+    height: 50%;
+}
+
+/*Fin clases para reutilizar*/
+
+/*Clase para imagen de fondo del banner*/
+.bg-banner{
+    background-image: url("https://i0.wp.com/ymsalicante.com/wp-content/uploads/2018/09/dj2.jpg?w=1060&ssl=1");
+    background-position: center;
+    background-size: cover;
+    /*Efecto Parallax*/
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+/*background rgba del menú*/
+.bg-nav{
+    background-color: rgba(65, 36, 65, 0.466);
+}
+
+nav {
+    position: fixed !important;
+    height: 10vh;  
+    width: 100%;
+}
+
+.text-banner{
+    width: 70%;   
+}
+
+.text-banner h1{
+    font-family: "Rock Salt", cursive;
+    font-size: 70px;
+   
+}
+
+.text-banner p{
+    margin: 0 15%;    
+}
+
+.cards-carrusel{
+    padding: 25px;
+}
+
+.card{
+    box-shadow: 1px 0px 1px 0px black;
+}
+
+hr{
+    width: 80%;
+}
+
+.texto-carrusel{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.texto-dj h2{
+    font-weight: bold;
+}
+
+.dj-codehouse img{
+    width: 90%;
+}
+
+.iconos img{
+    width: 20%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-body h5{
+    font-size: 25px;
+}
+
+.youtube-cards .card{
+    padding: 10%;
+    border: none;
+}
+
+.margin-section-cards{
+    margin: 5% 10%;
+}
+/*Estilos footer*/
+.bg-footer1{
+    background-image: url("../images/countdown-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.bg-footer2{
+    background-image: url("../images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.text-footer h2{
+    font-family:"Rock Salt", cursive; 
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.countdown .dias h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer-info img{
+    width: 15%;
+}
+
+.btn-morado2{
+    border: none;
+    background-color: #622bcb;
+    color: white;
+    padding: 7px 25px;
+}

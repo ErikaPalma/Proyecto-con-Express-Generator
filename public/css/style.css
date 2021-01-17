@@ -1,0 +1,135 @@
+.bg-navbar {
+  background-color: #082B49;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-banner {
+  background-image: url('/images/banner_dog_bg.png');
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-banner {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.text-banner p {
+  color: #e65d5d;
+}
+
+.text-banner h1 {
+  color: #082B49;
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.img-about {
+  width: 80%;
+}
+
+.text-about {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-right: 15%;
+}
+
+.text-about img {
+  margin-bottom: 2%;
+}
+
+.text-about h2 {
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.bg-provide {
+  height: 100vh;
+  background-image: url("/images/services_bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-services {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.img-services {
+  width: 60%;
+}
+
+.card-services {
+  text-align: center;
+  align-items: center;
+}
+
+.img-adopt img,
+.help-img img {
+  width: 80%;
+}
+
+.text-adopt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+}
+
+.container-dogs {
+  display: flex;
+}
+
+.h-40vh {
+  height: 40vh;
+}
+
+.bg-dog2 {
+  background-image: url("/images/review_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.help-img {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-footer {
+  background-image: url("/images/footer_bg.png");
+  height: 100vh;
+}
+
+.newletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 5%;
+}
